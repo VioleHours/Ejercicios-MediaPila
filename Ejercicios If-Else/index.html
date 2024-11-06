@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicios IF/ELSE</title>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <script>
+            const secretNumber = 7;
+            let numeroIngresado = Number(prompt("Adiviná el numero secreto"));
+            if (numeroIngresado === secretNumber) {
+                alert('FELICIDADES! Adivinaste el número')
+            } else if (numeroIngresado < secretNumber) {
+                alert('Tu número es menor al numero secreto')
+            } else {
+                alert('Tu número es mayor al numero secreto')
+            }
+        </script>
+    </body>
+
+</html>
