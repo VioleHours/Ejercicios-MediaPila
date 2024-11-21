@@ -35,3 +35,45 @@ h1 {
 .boton-agregar:hover{
     opacity: 0.9;
 }
+
+.item-input {
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.boton-editar {
+    margin: 0 5px;
+    border: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.boton-remover {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
